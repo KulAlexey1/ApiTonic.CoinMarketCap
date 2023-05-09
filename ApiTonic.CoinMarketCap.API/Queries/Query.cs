@@ -1,17 +1,9 @@
-﻿using ApiTonic.CoinMarketCap.ClientLibrary.Models;
-using ApiTonic.CoinMarketCap.ClientLibrary.Services;
+﻿using ApiTonic.CoinMarketCap.API.Queries;
 
 namespace ApiTonic.API.Queries
 {
     public class Query
     {
-        public Task<CryptoList> GetLatestCryptoListAsync(
-            [Service] ICryptoService service,
-            int start,
-            int limit,
-            string convert)
-        {
-            return service.GetLatestListAsync(start, limit, convert);
-        }
+        public CoinMarketCapQuery CoinMarketCap { get; set; } = new CoinMarketCapQuery();
     }
 }

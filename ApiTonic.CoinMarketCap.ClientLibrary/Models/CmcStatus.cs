@@ -1,6 +1,6 @@
 ﻿namespace ApiTonic.CoinMarketCap.ClientLibrary.Models
 {
-    public class Status
+    public class CmcStatus
     {
         public DateTime timestamp { get; set; }
         public int error_code { get; set; }

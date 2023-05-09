@@ -7,7 +7,7 @@
     ///     "slug": "ethereum",
     ///     "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
     /// </summary>
-    public class Platform
+    public class CmcPlatform
     {
         public int id { get; set; }
         public string name { get; set; }

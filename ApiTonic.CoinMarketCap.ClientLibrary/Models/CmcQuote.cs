@@ -16,7 +16,7 @@
     ///     "tvl": null,
     ///     "last_updated": "2023-02-18T14:44:00.000Z"
     /// </summary>
-    public class Quote
+    public class CmcQuote
     {
         public double price { get; set; }
         public double volume_24h { get; set; }

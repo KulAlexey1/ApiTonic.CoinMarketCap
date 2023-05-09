@@ -1,6 +1,6 @@
 ﻿namespace ApiTonic.CoinMarketCap.ClientLibrary.Models
 {
-    public enum QuoteCurrencies
+    public enum CmcQuoteCurrencies
     {
         Eur,
         Usd

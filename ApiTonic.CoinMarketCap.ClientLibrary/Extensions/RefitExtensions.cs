@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Refit;
 
-namespace ApiTonic.CoinMarketCap.ClientLibrary
+namespace ApiTonic.CoinMarketCap.ClientLibrary.Extensions
 {
     public static class RefitExtensions
     {
